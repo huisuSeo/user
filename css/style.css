@@ -882,3 +882,12 @@ ul.join_box{border: 1px solid #ddd;background-color: #fff;}
 .p-3 .form-group {
   margin-bottom : 0;
 }
+
+.password-group {
+  margin : 0 auto;
+  display : flex;
+}
+
+.password-group .col-md-7 {
+  flex: auto
+}
