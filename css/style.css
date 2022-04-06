@@ -77,7 +77,7 @@ a:hover {
   top: -2px; }
 
 .form-control {
-  height: 43px; }
+  height: 43px; display: inline}
 .form-control:active, .form-control:focus {
   border-color: #7971ea; }
 .form-control:hover, .form-control:active, .form-control:focus {
