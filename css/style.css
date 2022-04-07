@@ -68,9 +68,14 @@ a:hover {
   font-size: 14px !important;
   padding: 10px 20px !important; }
 .btn.btn-primary {
+  font-weight:520 !important;
+  letter-spacing: 1px !important;
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: .2em; }
+  letter-spacing: .2em;
+  background-color: #3498db;
+  border-color: #3498db;
+}
 .btn:hover {
   -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
   box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
@@ -562,8 +567,6 @@ a:hover {
   opacity: .2; }
 
 .block-4 {
-  -webkit-box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.1);
   background: #fff; }
 .block-4 .block-4-text h3 {
   font-size: 20px;
@@ -694,9 +697,12 @@ a:hover {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+  color: black;
+}
 .site-block-27 ul li.active a, .site-block-27 ul li.active span {
-  background: #7971ea;
+  background: #3498db;
   color: #fff;
   border: 1px solid transparent; }
 
@@ -755,24 +761,21 @@ a:hover {
   letter-spacing: .1em; }
 
 .block-38 .block-38-header img {
-  width: 120px;
+  width: 50%;
   border-radius: 50%;
-  margin-bottom: 20px; }
+  margin-bottom: 5px !important; }
 
 .tabs {
-  margin-top: 50px;
   padding-bottom: 40px;
   background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 700px;
-  margin: 0 auto;}
+}
 
 /* 탭 스타일 */
 .tab_item {
   width: calc(100%/4);
   height: 50px;
-  border-bottom: 3px solid #333333;
-  background-color: #f8f8f8;
+  background-color: #e0e0e0;
   line-height: 50px;
   font-size: 16px;
   text-align: center;
@@ -782,6 +785,8 @@ a:hover {
   text-align: center;
   font-weight: bold;
   transition: all 0.2s ease;
+  border-right: 3px solid white;
+  border-radius: 5%
 }
 .tab_item:hover {
   opacity: 0.75;
@@ -795,9 +800,10 @@ input[name="tab_item"] {
 /* 탭 컨텐츠 스타일 */
 .tab_content {
   display: none;
-  padding: 40px 40px 0;
+  padding: 10px 10px 0;
   clear: both;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   height: 600px;
 
 }
@@ -813,15 +819,14 @@ input[name="tab_item"] {
 
 /* 선택된 탭 스타일 */
 .tabs input:checked + .tab_item {
-  background-color: #333333;
-  color: #fff;
+  background-color: #fada95;
 }
 .card-item {
   padding-top:10px;
   margin-bottom: 20px;
 }
 .card-item .row{
-  margin-left:30px;
+  margin-left:10px;
 }
 
 .align-items-center .image {
@@ -829,8 +834,10 @@ input[name="tab_item"] {
 }
 
 .align-items-center .text {
-  flex:2;
-  margin-left: 5px
+  flex:3;
+  margin-left: 5px;
+  color: black;
+  font-size:small;
 }
 
 .image .img {
@@ -839,7 +846,7 @@ input[name="tab_item"] {
 }
 
 .tab_content .card-item {
-  border: 1px solid black
+  border: 3px solid #e0e0e0
 }
 
 .text h4, h6 {
@@ -852,9 +859,12 @@ input[name="tab_item"] {
 }
 
 .block-38-body a {
-  font-size: 20pt;
+  font-size: 15pt;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: #3498db;
+  float: left;
+  font-weight: bold;
 }
 
 .block-38-header .h2{
@@ -890,4 +900,71 @@ ul.join_box{border: 1px solid #ddd;background-color: #fff;}
 
 .password-group .col-md-7 {
   flex: auto
+}
+
+.block-4-text h3 a{
+  float:left;
+  color: black;
+  font-size:large;
+  font-weight:bold;
+
+}
+
+.block-4-text ul li{
+  display:inline;
+  font-size:11px;
+  color: sienna;
+  background-color: #FADA95
+}
+
+.block-4 .block-4-text{
+  padding: 0 !important
+}
+
+.block-4-image img {
+  border-radius: 20%;
+}
+
+.block-4-text img {
+  width: 10%;
+  float: right;
+  margin: -5px;
+}
+
+.block-4 .block-4-image{
+  margin: 0 !important;
+}
+
+.block-38-body li {
+  list-style: none;
+  display: flex;
+  margin-bottom:10px
+}
+
+.block-38-header .h3{
+  font-weight: bold !important;
+}
+
+.block-38{
+  padding: 30px;
+}
+
+.block-38-header {
+  margin-bottom:60px;
+}
+
+#account .mb-4 {
+  font-weight:bold;
+  color:black;
+  font-size:25pt
+}
+
+.col-md-9 h3{
+  color:black;
+  font-size:20pt;
+  font-weight: bold;
+}
+
+.card-item h5{
+  color:black;
 }
