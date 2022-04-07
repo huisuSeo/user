@@ -876,8 +876,8 @@ ul.join_box{border: 1px solid #ddd;background-color: #fff;}
 .footBtwrap{margin-top: 15px;}
 .footBtwrap>li{float: left;width: 50%;height: 60px;}
   .footBtwrap>li>button{border: none; display: block; width: 100%;height: 100%; font-size: 20px;text-align: center;line-height: 60px;}
-.fpmgBt1{background-color: aliceblue;color:#888;}
-.fpmgBt2{background-color: lightsalmon;color: #fff}
+.fpmgBt1{background-color: #2a90ab;color:white;font-weight: bold}
+.fpmgBt2{background-color: #fada95;color: black;font-weight: bold}
 
 .p-3 .form-group {
   margin-bottom : 0;
