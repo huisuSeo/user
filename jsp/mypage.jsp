@@ -16,18 +16,18 @@
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="../css/aos.css">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="image">
-                                        <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img"></a>
+                                        <a href="#"><img src="../images/blog_1.jpg" alt="Image placeholder" class="img"></a>
                                     </div>
                                     <div class="text">
                                         <h6>바나나 우유 딸기로 바꿉니다</h6>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="image">
-                                        <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img"></a>
+                                        <a href="#"><img src="../images/blog_1.jpg" alt="Image placeholder" class="img"></a>
                                     </div>
                                     <div class="text">
                                         <h6>바나나 우유 딸기로 바꿉니다</h6>
@@ -159,7 +159,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="image">
-                                        <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img"></a>
+                                        <a href="#"><img src="../images/blog_1.jpg" alt="Image placeholder" class="img"></a>
                                     </div>
                                     <div class="text">
                                         <h6>바나나 우유 딸기로 바꿉니다</h6>
@@ -174,7 +174,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="image">
-                                        <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img"></a>
+                                        <a href="#"><img src="../images/blog_1.jpg" alt="Image placeholder" class="img"></a>
                                     </div>
                                     <div class="text">
                                         <h6>바나나 우유 딸기로 바꿉니다</h6>
@@ -189,7 +189,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="image">
-                                        <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img"></a>
+                                        <a href="#"><img src="../images/blog_1.jpg" alt="Image placeholder" class="img"></a>
                                     </div>
                                     <div class="text">
                                         <h6>바나나 우유 딸기로 바꿉니다</h6>
@@ -204,7 +204,7 @@
                                 </div>
                                 <div class="row align-items-center">
                                     <div class="image">
-                                        <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img"></a>
+                                        <a href="#"><img src="../images/blog_1.jpg" alt="Image placeholder" class="img"></a>
                                     </div>
                                     <div class="text">
                                         <h6>바나나 우유 딸기로 바꿉니다</h6>
@@ -229,7 +229,7 @@
                         <div class="block-38-img">
                             <div class="block-38-header">
                                 <h3 class="block-38-heading h3">마이바다</h3>
-                                <img src="images/person_1.jpg" alt="Image placeholder" class="mb-4">
+                                <img src="../images/person_1.jpg" alt="Image placeholder" class="mb-4">
                                 <h3 class="block-38-heading h4">Name 님</h3>
                                 <p class="block-38-subheading">동네 정보 노출란</p>
                             </div>
@@ -285,7 +285,7 @@
                 <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
                     <h3 class="footer-heading mb-4">Promo</h3>
                     <a href="#" class="block-6">
-                        <img src="images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+                        <img src="../images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
                         <h3 class="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
                         <p>Promo from  nuary 15 &mdash; 25, 2019</p>
                     </a>
@@ -325,15 +325,15 @@
     </footer>
 </div>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/aos.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/aos.js"></script>
 
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 
 </body>
 </html>

@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: seohuisu
+  Date: 2022/04/12
+  Time: 10:00 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,18 +14,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="../css/aos.css">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -87,7 +95,7 @@
                             <li><a href="#">Menu Three</a></li>
                         </ul>
                     </li>
-                    <li class="active"><a href="mypage.html">Shop</a></li>
+                    <li class="active"><a href="shop.html">Shop</a></li>
                     <li><a href="#">Catalogue</a></li>
                     <li><a href="#">New Arrivals</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -96,106 +104,130 @@
         </nav>
     </header>
 
+    <div class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Shop</strong></div>
+            </div>
+        </div>
+    </div>
 
     <div class="site-section">
         <div class="container">
+            <div style="border: 1px solid #333;height: 200px;margin-bottom: 20px">
+                광고
+            </div>
+
             <div class="row mb-5">
                 <div class="col-md-9 order-2">
-                    <div class="bg-white shadow rounded-lg d-block d-sm-flex">
-                        <div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="account" role="tabpanel" aria-labelledby="account-tab">
-                                <h1 class="mb-4">계정 관리</h1>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>아이디</label>
-                                            <input type="text" class="form-control" value="cok854">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>닉네임</label>
-                                            <input type="text" class="form-control" value="김개똥">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>이메일</label>
-                                            <input type="text" class="form-control" value="kiranacharya287@gmail.com">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>휴대폰 번호</label>
-                                            <input type="text" class="form-control" value="010-1234-1234">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>주소</label>
-                                            <select id="c_country" class="form-control" >
-                                                <option value="1">구 선택</option>
-                                                <option value="2">강남구</option>
-                                                <option value="3">서초구</option>
-                                                <option value="4">강동구</option>
-                                                <option value="5">송파구</option>
-                                                <option value="6">중랑구</option>
-                                                <option value="7">중구</option>
-                                                <option value="8">구로구</option>
-                                                <option value="9">성동구</option>
-                                            </select>
-                                        </div>
-                                    </div>
 
-                                    <div class="password-group">
-                                        <div class="col-md-7">
-                                            <div class="form-group">
-                                                <label>현재 비밀번호</label>
-                                                <input type="password" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="form-group">
-                                                <label>새 비밀번호</label>
-                                                <input type="password" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="form-group">
-                                                <label>비밀번호 확인</label>
-                                                <input type="password" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
+
+                    <div class="row mb-5">
+
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center border">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
 
                                 </div>
-                                <div>
-                                    <button class="btn btn-primary">변경하기</button>
-                                    <button class="btn btn-danger" style="float:right">탈퇴</button>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text p-4">
+
+                                    <p class="mb-0">#닌텐도스위치, #맥북프로, #다이슨청소기.</p>
+
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center border">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text p-4">
+
+                                    <p class="mb-0">#닌텐도스위치, #맥북프로, #다이슨청소기.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center border">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text p-4">
+
+                                    <p class="mb-0">#닌텐도스위치, #맥북프로, #다이슨청소기.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center border">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text p-4">
+
+                                    <p class="mb-0">#닌텐도스위치, #맥북프로, #다이슨청소기.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center border">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text p-4">
+
+                                    <p class="mb-0">#닌텐도스위치, #맥북프로, #다이슨청소기.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
-
-
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-md-12 text-center">
+                            <div class="site-block-27">
+                                <ul>
+                                    <li><a href="#">&lt;</a></li>
+                                    <li class="active"><span>1</span></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">&gt;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="block-38 text-center">
-                        <div class="block-38-img">
-                            <div class="block-38-header">
-                                <h3 class="block-38-heading h3">마이바다</h3>
-                                <img src="images/person_1.jpg" alt="Image placeholder" class="mb-4">
-                                <h3 class="block-38-heading h4">Name 님</h3>
-                                <p class="block-38-subheading">동네 정보 노출란</p>
-                            </div>
-                            <div class="block-38-body">
-                                <li><a href="#">개인 정보</a></li>
-                                <li><a href="mypage.html">교환 목록</a></li>
-                                <li><a href="#">관심 목록</a></li>
-                                <li><a href="#">건의 사항</a></li>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="col-md-3 order-1 mb-5 mb-md-0" style="border: 1px solid #333">
+
+                    광고
+
                 </div>
             </div>
 
@@ -240,7 +272,7 @@
                 <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
                     <h3 class="footer-heading mb-4">Promo</h3>
                     <a href="#" class="block-6">
-                        <img src="images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+                        <img src="../images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
                         <h3 class="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
                         <p>Promo from  nuary 15 &mdash; 25, 2019</p>
                     </a>
@@ -280,15 +312,15 @@
     </footer>
 </div>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/aos.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/aos.js"></script>
 
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 
 </body>
 </html>
