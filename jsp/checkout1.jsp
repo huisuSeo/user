@@ -44,7 +44,7 @@
 
                     <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
                         <div class="site-logo">
-                            <a href="index.html" class="js-logo-clone">Shoppers</a>
+                            <a href="index.html" class="js-logo-clone"></a>
                         </div>
                     </div>
 
@@ -70,34 +70,13 @@
         <nav class="site-navigation text-right text-md-center" role="navigation">
             <div class="container">
                 <ul class="site-menu js-clone-nav d-none d-md-block">
-                    <li class="has-children">
-                        <a href="index.html">Home</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Menu One</a></li>
-                            <li><a href="#">Menu Two</a></li>
-                            <li><a href="#">Menu Three</a></li>
-                            <li class="has-children">
-                                <a href="#">Sub Menu</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Menu One</a></li>
-                                    <li><a href="#">Menu Two</a></li>
-                                    <li><a href="#">Menu Three</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-children">
-                        <a href="about.html">About</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Menu One</a></li>
-                            <li><a href="#">Menu Two</a></li>
-                            <li><a href="#">Menu Three</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="mypage.html">Shop</a></li>
-                    <li><a href="#">Catalogue</a></li>
-                    <li><a href="#">New Arrivals</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">물물교환</a></li>
+                    <li><a href="about.html">우리 동네 랭킹</a></li>
+
+                    <li><a href="mypage.html"><img style="width: 20px" src="../images/pencil.png">글쓰기</a></li>
+                    <li><a href="#"><img src="../images/unlike.png" style="width: 20px"></a></li>
+                    <li><a href="#"><span class="icon icon-person"></span></a></li>
+                    <li><a href="contact.html"><button class="fpmgBt1" style="border">로그인</button></a></li>
                 </ul>
             </div>
         </nav>

@@ -178,6 +178,96 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+                                    <img src = "../images/unlike.png">
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text">
+                                    <ul>
+                                        <li>#닌텐도스위치</li>
+                                        <li>#맥북프로</li>
+                                        <li>#다이슨청소기</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+                                    <img src = "../images/unlike.png">
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text">
+                                    <ul>
+                                        <li>#닌텐도스위치</li>
+                                        <li>#맥북프로</li>
+                                        <li>#다이슨청소기</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+                                    <img src = "../images/unlike.png">
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text">
+                                    <ul>
+                                        <li>#닌텐도스위치</li>
+                                        <li>#맥북프로</li>
+                                        <li>#다이슨청소기</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+                                    <img src = "../images/unlike.png">
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text">
+                                    <ul>
+                                        <li>#닌텐도스위치</li>
+                                        <li>#맥북프로</li>
+                                        <li>#다이슨청소기</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                            <div class="block-4 text-center">
+                                <div class="block-4-text p-4">
+                                    <h3><a href="shop-single.html">입던 티셔츠 팝니다.</a></h3>
+                                    <img src = "../images/unlike.png">
+                                </div>
+                                <figure class="block-4-image">
+                                    <a href="#void"><img src="../images/cloth_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                                </figure>
+                                <div class="block-4-text">
+                                    <ul>
+                                        <li>#닌텐도스위치</li>
+                                        <li>#맥북프로</li>
+                                        <li>#다이슨청소기</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="row" data-aos="fade-up">
@@ -197,9 +287,20 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 order-1 mb-5 mb-md-0" style="border: 1px solid #333;height: 1000px">
-
-                    카테고리
+                <div class="col-md-3 order-1 mb-5 mb-md-0" style="border: 1px solid #333;height: 1000px;display: inline;text-align: center;background-color: #2a90ab
+                    ;color: white;font-weight: bold;font-size: 25px">
+                    <ul style="margin-top: 50px;display: inline-block; ">
+                    <li>전자기기</li><br/>
+                    <li>생활용품</li><br/>
+                    <li>식품</li><br/>
+                    <li>반려 동물 용품</li><br/>
+                    <li>의류</li><br/>
+                    <li>뷰티, 미용</li><br/>
+                    <li>인테리어, 가구</li><br/>
+                    <li>필기구</li><br/>
+                    <li>악기</li><br/>
+                    <li>기타 용품</li><br/>
+                    </ul>
 
                 </div>
             </div>
