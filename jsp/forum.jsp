@@ -108,46 +108,7 @@
 <body>
 
 <div class="site-wrap">
-    <header class="site-navbar" role="banner">
-        <div class="site-navbar-top">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
-
-                    </div>
-
-                    <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
-                        <div>
-                            <a href="index.html" >BADASAJA</a>
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
-        <nav class="site-navigation text-right text-md-center" role="navigation">
-            <div class="container">
-
-                <a href="#" class="main_banner">물물교환</a>
-                <a href="#" class="main_banner">우리 동네 랭킹</a>
-                <input type="text" placeholder="동네, 물품을 검색해주세요"
-                       id="searchArea" style="width:300px"/>
-                <input type="button" value="검색" id="btnSearch">
-
-                <a href="#" class="main_banner">글쓰기</a>
-                <a href="#"><span style="margin-left: 20px; margin-top:10px; font-size: 25px ">♡</span></a>
-                <a href="#"><span class="icon icon-person" style="margin-left: 10px;"></span></a>
-                <a href="#" style="margin-left: 10px;">로그인</a>
-
-            </div>
-        </nav>
-    </header>
-
-    <div class="banner_line">
-    </div>
+    <%@include file="components/header.jsp"%>
     <div style="margin: 0px auto; width: 700px; text-align: right; ">
         <input type="button" value="수정하기">
     </div>

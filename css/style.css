@@ -970,3 +970,19 @@ ul.join_box{border: 1px solid #ddd;background-color: #fff;}
 .card-item h5{
   color:black;
 }
+
+#account h4 a{
+  color:#3498db;
+}
+
+#account h6 a{
+  color:#3498db;
+}
+
+.col-md-9 h3{
+  margin-bottom:30px;
+}
+
+#account label{
+  color:black;
+}

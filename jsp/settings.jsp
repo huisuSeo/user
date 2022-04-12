@@ -102,40 +102,28 @@
                                             </div>
                                         </div>
                                     </div>
-
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>수신 설정</label><br>
+                                            <input type="checkbox" class="bx-checkbox">
+                                            광고성 수신을 동의합니다
+                                        </div>
+                                    </div>
                                 </div>
                                 <div>
                                     <button class="btn btn-primary">변경하기</button>
                                     <button class="btn btn-danger" style="float:right">탈퇴</button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
-
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="block-38 text-center">
-                        <div class="block-38-img">
-                            <div class="block-38-header">
-                                <h3 class="block-38-heading h3">마이바다</h3>
-                                <img src="../images/person_1.jpg" alt="Image placeholder" class="mb-4">
-                                <h3 class="block-38-heading h4">Name 님</h3>
-                                <p class="block-38-subheading">동네 정보 노출란</p>
-                            </div>
-                            <div class="block-38-body">
-                                <li><a href="#">개인 정보</a></li>
-                                <li><a href="mypage.html">교환 목록</a></li>
-                                <li><a href="#">관심 목록</a></li>
-                                <li><a href="#">건의 사항</a></li>
-                            </div>
                         </div>
+
                     </div>
                 </div>
+                <%@include file="components/mypage_nav.jsp"%>
             </div>
         </div>
     </div>
-
 </div>
 
 <script src="../js/jquery-3.3.1.min.js"></script>
