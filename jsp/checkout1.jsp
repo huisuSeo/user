@@ -31,6 +31,61 @@
 
 <div class="site-wrap">
     <%@include file="components/header.jsp"%>
+    <header class="site-navbar" role="banner">
+        <div class="site-navbar-top">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+                        <form action="" class="site-block-top-search">
+                            <span class="icon icon-search2"></span>
+                            <input type="text" class="form-control border-0" placeholder="Search">
+                        </form>
+                    </div>
+
+                    <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+                        <div class="site-logo">
+                            <a href="index.html" class="js-logo-clone"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                        <div class="site-top-icons">
+                            <ul>
+                                <li><a href="#"><span class="icon icon-person"></span></a></li>
+                                <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                                <li>
+                                    <a href="cart.html" class="site-cart">
+                                        <span class="icon icon-shopping_cart"></span>
+                                        <span class="count">2</span>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <nav class="site-navigation text-right text-md-center" role="navigation">
+            <div class="container">
+                <ul class="site-menu js-clone-nav d-none d-md-block">
+                    <li><a href="index.html">물물교환</a></li>
+                    <li><a href="about.html">우리 동네 랭킹</a></li>
+
+                    <li><a href="mypage.html"><img style="width: 20px" src="../images/pencil.png">글쓰기</a></li>
+                    <li><a href="#"><img src="../images/unlike.png" style="width: 20px"></a></li>
+                    <li><a href="#"><span class="icon icon-person"></span></a></li>
+                    <li><a href="contact.html"><button class="fpmgBt1" style="border">로그인</button></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div style="width: auto;height: 15px;background-color: #fada95"></div>
+    <br/>
+    <br/>
 </div>
 <h2 class="h3 mb-3 text-black"style="font-weight: bold">회원가입</h2>
 <form action="" id="joinForm">
@@ -97,6 +152,12 @@
         <li><button class="fpmgBt2">다음</button></li>
     </ul>
 </form>
+
+<footer class="site-footer border-top">
+    <div style="border: 1px solid #333">
+
+    </div>
+</footer>
 </div>
 
 <script src="../js/jquery-3.3.1.min.js"></script>
